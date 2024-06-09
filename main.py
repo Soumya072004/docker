@@ -12,7 +12,7 @@ def register():
         password=request.form['password']
     return render_template("success.html")
 if __name__=="__main__":
-    print("appraveenurva")
+    print("hi")
     app.run(host='0.0.0.0',port=5000)
 
 
